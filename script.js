@@ -6,31 +6,11 @@ var nav= function(){
     nav_projetos=document.getElementById("nav_projetos");
     nav_contato=document.getElementById("nav_contato");
 }
-window.addEventListener('scroll', function() {
-    var posicao = inicio.getBoundingClientRect().top;
-    var altura = window.innerHeight;
+var ini = document.getElementById("ini");
 
-    if (posicao < altura) {
-        inicio.classList.add('oculto');
-    } else {
-        inicio.classList.remove('oculto');
-    }
+//quando a tela descer o #inicio deixa de ser opaco lentamente, mas quando voltar ao topo deixa de ser inisivel
+window.onscroll = function(){
+    inicio.style.opacity = 1 - window.scrollY / 90;
+}
 
-    if (window.pageYOffset === 0) {
-        inicio.classList.remove('oculto');
-    }
-    var nav = document.querySelector('.nav_header');
-    var posicao = inicio.getBoundingClientRect().top;
-    var altura = window.innerHeight;
-
-    if (posicao < altura) {
-        nav.classList.add('fixo');
-    } else {
-        nav.classList.remove('fixo');
-    }
-
-    if (window.pageYOffset === 0) {
-        nav.classList.remove('fixo');
-    }
-    
-});
+//quando a tela descer o 

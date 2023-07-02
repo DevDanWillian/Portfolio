@@ -9,9 +9,11 @@ body {
 }
 
 header {
-    margin-bottom: 5rem;
+    margin-top: 0.3rem;
+    padding-bottom: 2rem;
     align-items: center;
 }
+
 
  #inicio img {
         height: 60px;
@@ -19,28 +21,14 @@ header {
         vertical-align: middle;
 }
     #inicio{
-        margin-top: 0.3em;
+        margin-top:0;
         margin-bottom: 0.2em;
         text-align: center;
         color: #05D9E7;    
         font-size: xx-large;
         position: sticky;
         top: 0;
-    }
-    #inicio{
-        opacity: 1;
         transition: opacity 0.5s ease-in-out;
-    }
-    
-    #inicio.oculto{
-        opacity: 0;
-    }
-    .fixo{
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 9999;
     }
     
 
@@ -58,11 +46,7 @@ header {
     height: 3rem;
     width: 70%;
     box-shadow: #02012B 3px 3px 7px;
-    background-color: #02012B;
-    
-}
-.nav_header{
-    transition: all 0.5s ease;
+    background-color: #02012B; 
 }
 .nav_header a {
     
@@ -79,6 +63,8 @@ header {
     border-radius: 25px;
     padding: 10px;
 }
+
+
 #block{background-color:
     #D1F8FF;
     margin:2rem;
