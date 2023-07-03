@@ -15,7 +15,7 @@ nav_inicio.addEventListener("click", function(){
 
 //quando a tela descer o #inicio deixa de ser opaco lentamente, mas quando voltar ao topo deixa de ser inisivel
 window.onscroll = function(){
-    inicio.style.opacity = 1 - window.scrollY / 20;
+    inicio.style.opacity = 1 - window.scrollY / 25;
     if(window.pageYOffset >= sticky){
         nav_header.classList.add("sticky");}
     else{

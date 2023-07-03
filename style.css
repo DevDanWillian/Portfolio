@@ -6,11 +6,17 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: #02012B;
     align-content: center;
+    margin: auto;
 }
 
 header {
-    margin-top: 0.3rem;
+    margin: auto;
     align-items: center;
+    background-color: #ff2a6ec0;
+    border-radius: 35px;
+    padding: 0.7rem;
+    width: 90%;
+    align-self: center;
 }
 
  #inicio img {
@@ -23,16 +29,15 @@ header {
         margin-bottom: 0.5em;
         text-align: center;
         color: #05D9E7;    
-        font-size: xx-large;
+        font-size: 3rem;
         top: 0;
         left: 0;
         transition: opacity 0.5s ease-in-out;
+        text-shadow:#02012B 3px 3px 3px;
     }
     
 
 #nav_header{
-
-    overflow: hidden;
     align-items: center;
     display: flex;
     flex-direction:row;
@@ -41,40 +46,44 @@ header {
     justify-content: space-around;
     height: 3rem;
     width: 70%;
-    box-shadow: #02012B 3px 3px 7px;
+    box-shadow: #010118 3px 3px 7px;
     background-color: #02012B; 
-    z-index: 1;
+    margin-top: 2rem;
 }
 
-.sticky {
-    margin-top: 2rem;
+.sticky { 
     position: fixed;
     top: 0;
-    transform: translateX(20%);
+    border:35px;
+    margin-left: 3rem ;
+    transform: translateX(15%);
 }
 
 #nav_header a {
+    color: #FF2A6D;
     
-    color: #05D9E7;
     text-decoration: none;
     font-size: 1.15rem;
     transition:1s;
     font-weight: bold;
 }
 #nav_header a:hover{
-    background-color: #05D9E7;
-    box-shadow: #05D9E7 3px 3px 5px;
+    background-color: #4060D9;
+    box-shadow: #01565c 3px 3px 5px;
     color: #FF2A6D;
+    font-weight: bolder;
+    font-size: 1.3rem;
     border-radius: 25px;
-    padding: 10px;
+    padding: 0.5rem;
 }
 
 
 #block{background-color:#D1F8FF;
-    margin:2rem;
+    margin: 2rem auto ;
+    padding: 2rem;
+    width: 80%;
     text-align: center;
     border-radius: 35px;
-    padding: 1rem 2rem;
-    margin-top: 5rem;
+    box-shadow: #05D9E7 3px 3px 3px;
 }
 
