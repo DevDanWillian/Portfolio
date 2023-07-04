@@ -6,59 +6,62 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: #02012B;
     align-content: center;
-    margin: auto;
 }
 
 header {
-    margin: auto;
     align-items: center;
-    background-color: #ff2a6ec0;
+    background-color: #ff2a6ea9;
     border-radius: 35px;
-    padding: 0.7rem;
-    width: 90%;
+    min-width: 80%;
+    max-width: 95%;
+    max-height: 100rem;
+    margin: auto;
     align-self: center;
+    box-shadow: #ff2a6ec4 3px 3px 7px;
+    padding-bottom:.5rem ;
 }
 
- #inicio img {
-        height: 60px;
+ 
+#inicio{
+    margin-top: 0;
+    margin-bottom: -0.em;
+    text-align: center;
+    color: #02012B; 
+font: bold 3rem serif;
+    text-decoration:underline;
+    transition: 0.5s ease-in-out;
+}
+    header img {
+        flex-direction: row;
+        margin: auto;
+        min-width: %;
+        width: 10%;
         border-radius: 20px;
         vertical-align: middle;
-}
-    #inicio{
-        margin-top:0;
-        margin-bottom: 0.5em;
-        text-align: center;
-        color: #05D9E7;    
-        font-size: 3rem;
-        top: 0;
-        left: 0;
-        transition: opacity 0.5s ease-in-out;
-        text-shadow:#02012B 3px 3px 3px;
+        margin-right: 1rem;
+        margin-top: 1rem;
     }
-    
 
 #nav_header{
     align-items: center;
     display: flex;
     flex-direction:row;
-    margin: auto;
     border-radius: 35px;
     justify-content: space-around;
     height: 3rem;
-    width: 70%;
+    min-width: ;
+    width: 90%;
     box-shadow: #010118 3px 3px 7px;
     background-color: #02012B; 
-    margin-top: 2rem;
+    margin: 1rem auto .5rem;
 }
-
-.sticky { 
+.sticky {
+    margin: 1rem auto .1rem;
     position: fixed;
+    float: center;
     top: 0;
-    border:35px;
-    margin-left: 3rem ;
-    transform: translateX(15%);
+    
 }
-
 #nav_header a {
     color: #FF2A6D;
     
@@ -77,13 +80,12 @@ header {
     padding: 0.5rem;
 }
 
-
 #block{background-color:#D1F8FF;
     margin: 2rem auto ;
     padding: 2rem;
     width: 80%;
     text-align: center;
     border-radius: 35px;
-    box-shadow: #05D9E7 3px 3px 3px;
+    box-shadow: #D1F8FF 3px 3px 3px;
 }
 
