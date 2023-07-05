@@ -7,17 +7,21 @@ var nav= function(){
     nav_projetos=document.getElementById("nav_projetos");
     nav_contato=document.getElementById("nav_contato");
 }
-var sticky = nav_header.offsetTop;
-
-nav_inicio.addEventListener("click", function(){
-    inicio.style.opacity = 1;
-})
+var logoface=document.getElementById("logoface");
 
 //quando a tela descer o #inicio deixa de ser opaco lentamente, mas quando voltar ao topo deixa de ser inisivel
 window.onscroll = function(){
-    inicio.style.opacity = 1 - window.scrollY / 25;
-    if(window.pageYOffset >= sticky){
-        nav_header.classList.add("sticky");}
-    else{
-        nav_header.classList.remove("sticky");
-}}
+    ini.style.opacity = 1 - window.scrollY / 230;
+}
+
+//quando a largura da pagina for maior ou menor que 290px todo o conteudeo de ini ficara 50% menor
+
+window.onresize = function(){
+    if(window.innerWidth < 290){
+        logoface.style.width = "30%";
+        nav_header.style.width = "97%";
+    }else{
+        ini.style.width = "auto";
+    }
+
+}

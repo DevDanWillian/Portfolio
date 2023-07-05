@@ -9,58 +9,48 @@ body {
 }
 
 header {
-    align-items: center;
     background-color: #ff2a6ea9;
     border-radius: 35px;
-    min-width: 80%;
-    max-width: 95%;
-    max-height: 100rem;
+    width: 98%;
+    max-height: 10rem;
     margin: auto;
     align-self: center;
-    box-shadow: #ff2a6ec4 3px 3px 7px;
-    padding-bottom:.5rem ;
+    box-shadow: #ff2a6e83 3px 3px 7px;
+    padding:.5rem ;
+    display: flex;
+    justify-content:space-around;
 }
 
  
 #inicio{
-    margin-top: 0;
-    margin-bottom: -0.em;
     text-align: center;
     color: #02012B; 
-font: bold 3rem serif;
+    font: bold serif;
     text-decoration:underline;
     transition: 0.5s ease-in-out;
+    align-self:center;
 }
-    header img {
-        flex-direction: row;
-        margin: auto;
-        min-width: %;
-        width: 10%;
+    #logoface {
+        object-fit:cover;
         border-radius: 20px;
         vertical-align: middle;
-        margin-right: 1rem;
-        margin-top: 1rem;
-    }
+        border-radius: 25px;
+        box-shadow: #01011825 4px 4px 4px;
+}
 
 #nav_header{
+    position: sticky;
+    top: 10px;
     align-items: center;
     display: flex;
     flex-direction:row;
     border-radius: 35px;
     justify-content: space-around;
     height: 3rem;
-    min-width: ;
-    width: 90%;
-    box-shadow: #010118 3px 3px 7px;
+    width: 75%;
+    box-shadow: #010118c0 3px 3px 7px;
     background-color: #02012B; 
-    margin: 1rem auto .5rem;
-}
-.sticky {
-    margin: 1rem auto .1rem;
-    position: fixed;
-    float: center;
-    top: 0;
-    
+    margin: 1rem auto;
 }
 #nav_header a {
     color: #FF2A6D;
@@ -80,10 +70,10 @@ font: bold 3rem serif;
     padding: 0.5rem;
 }
 
-#block{background-color:#D1F8FF;
-    margin: 2rem auto ;
+#block{
+    background-color:#D1F8FF;
+    margin: 1rem auto ;
     padding: 2rem;
-    width: 80%;
     text-align: center;
     border-radius: 35px;
     box-shadow: #D1F8FF 3px 3px 3px;
