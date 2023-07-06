@@ -13,12 +13,12 @@ header {
     border-radius: 35px;
     width: 98%;
     max-height: 10rem;
-    margin: auto;
     align-self: center;
     box-shadow: #ff2a6e83 3px 3px 7px;
     padding:.5rem ;
     display: flex;
     justify-content:space-around;
+    margin: 1rem;
 }
 
  
@@ -29,6 +29,7 @@ header {
     text-decoration:underline;
     transition: 0.5s ease-in-out;
     align-self:center;
+    font-weight: 700;
 }
     #logoface {
         object-fit:cover;
@@ -56,7 +57,7 @@ header {
     color: #FF2A6D;
     
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     transition:1s;
     font-weight: bold;
 }
